@@ -1,0 +1,21 @@
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!terraform.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.pem
+*.key
+.env
+
+# Terraform plan files (build artifacts — not source code)
+tfplan
+tfplan.txt
+*.tfplan
